@@ -1,0 +1,30 @@
+PODS:
+  - HexColors (2.2.1)
+  - MYBlurIntroductionView (1.0.3)
+  - pop (1.0.7)
+
+DEPENDENCIES:
+  - HexColors (~> 2.2.1)
+  - MYBlurIntroductionView (from `https://github.com/MatthewYork/MYBlurIntroductionView.git`)
+  - pop (from `https://github.com/facebook/pop.git`)
+
+EXTERNAL SOURCES:
+  MYBlurIntroductionView:
+    :git: https://github.com/MatthewYork/MYBlurIntroductionView.git
+  pop:
+    :git: https://github.com/facebook/pop.git
+
+CHECKOUT OPTIONS:
+  MYBlurIntroductionView:
+    :commit: 2ab6e0a098970242bb97f188c66e7b4917e11d86
+    :git: https://github.com/MatthewYork/MYBlurIntroductionView.git
+  pop:
+    :commit: 8b76b72f75016c2f77dc7427c835579e50180227
+    :git: https://github.com/facebook/pop.git
+
+SPEC CHECKSUMS:
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  MYBlurIntroductionView: b12651c25574580472ff34989a4c5b81c157009f
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+
+COCOAPODS: 0.37.2
