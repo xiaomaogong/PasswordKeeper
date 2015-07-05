@@ -15,6 +15,9 @@
 		508686661B3EFCA20045F0DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508686641B3EFCA20045F0DD /* LaunchScreen.xib */; };
 		508686721B3EFCA20045F0DD /* PasswordKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508686711B3EFCA20045F0DD /* PasswordKeeperTests.swift */; };
 		57E7035974B9647286F8FC66 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B487EDF99BFAE8A3ED8CB15 /* libPods.a */; };
+		DF6AAF901B49414600EAC5D0 /* ItemsManController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF8F1B49414600EAC5D0 /* ItemsManController.swift */; };
+		DF6AAF951B4941D100EAC5D0 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */; };
+		DF6AAF9A1B4948E300EAC5D0 /* PKErrorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */; };
 		DFA842351B40526700FF5E1D /* PasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA8422F1B40526700FF5E1D /* PasswordModel.swift */; };
 		DFA842361B40526700FF5E1D /* HistorySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842301B40526700FF5E1D /* HistorySearchModel.swift */; };
 		DFA842371B40526700FF5E1D /* CategaryDescriptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842311B40526700FF5E1D /* CategaryDescriptModel.swift */; };
@@ -49,6 +52,9 @@
 		508686711B3EFCA20045F0DD /* PasswordKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordKeeperTests.swift; sourceTree = "<group>"; };
 		5C1DDEC0047B70E51CD48EBB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DF0AFBF01B3FC10300D05DE8 /* IntroduceGuideHeader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IntroduceGuideHeader-Bridging-Header.h"; path = "PasswordKeeper/Libs/IntroduceGuideHeader-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF6AAF8F1B49414600EAC5D0 /* ItemsManController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManController.swift; sourceTree = "<group>"; };
+		DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKErrorOperation.swift; sourceTree = "<group>"; };
 		DFA8422F1B40526700FF5E1D /* PasswordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordModel.swift; path = PasswordKeeper/Model/PasswordModel.swift; sourceTree = "<group>"; };
 		DFA842301B40526700FF5E1D /* HistorySearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistorySearchModel.swift; path = PasswordKeeper/Model/HistorySearchModel.swift; sourceTree = "<group>"; };
 		DFA842311B40526700FF5E1D /* CategaryDescriptModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategaryDescriptModel.swift; path = PasswordKeeper/Model/CategaryDescriptModel.swift; sourceTree = "<group>"; };
@@ -101,6 +107,8 @@
 		508686551B3EFCA20045F0DD /* PasswordKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				DF6AAF981B49488000EAC5D0 /* Foundation */,
+				DF6AAF931B49417E00EAC5D0 /* Item */,
 				508686581B3EFCA20045F0DD /* AppDelegate.swift */,
 				5086865D1B3EFCA20045F0DD /* ViewController.swift */,
 				5086865F1B3EFCA20045F0DD /* Main.storyboard */,
@@ -151,6 +159,23 @@
 				DF0AFBF01B3FC10300D05DE8 /* IntroduceGuideHeader-Bridging-Header.h */,
 			);
 			name = Libs;
+			sourceTree = "<group>";
+		};
+		DF6AAF931B49417E00EAC5D0 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				DF6AAF8F1B49414600EAC5D0 /* ItemsManController.swift */,
+				DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		DF6AAF981B49488000EAC5D0 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */,
+			);
+			name = Foundation;
 			sourceTree = "<group>";
 		};
 		DFA8421C1B40514400FF5E1D /* Model */ = {
@@ -312,12 +337,15 @@
 			files = (
 				5086865E1B3EFCA20045F0DD /* ViewController.swift in Sources */,
 				DFA842381B40526700FF5E1D /* UserModel.swift in Sources */,
+				DF6AAF901B49414600EAC5D0 /* ItemsManController.swift in Sources */,
+				DF6AAF9A1B4948E300EAC5D0 /* PKErrorOperation.swift in Sources */,
 				DFA842371B40526700FF5E1D /* CategaryDescriptModel.swift in Sources */,
 				DFA842391B40526700FF5E1D /* RegisterModeDescriptModel.swift in Sources */,
 				DFA842361B40526700FF5E1D /* HistorySearchModel.swift in Sources */,
 				DFA8423A1B40526700FF5E1D /* CollectionModel.swift in Sources */,
 				5086865C1B3EFCA20045F0DD /* PasswordKeeper.xcdatamodeld in Sources */,
 				DFA842351B40526700FF5E1D /* PasswordModel.swift in Sources */,
+				DF6AAF951B4941D100EAC5D0 /* ItemTableViewCell.swift in Sources */,
 				508686591B3EFCA20045F0DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
