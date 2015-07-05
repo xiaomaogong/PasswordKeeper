@@ -1,20 +1,31 @@
 PODS:
+  - BlurryModalSegue (1.1.2):
+    - MZAppearance (~> 1.1.1)
+    - UIImage+BlurredFrame (~> 0.0.4)
   - HexColors (2.2.1)
   - MYBlurIntroductionView (1.0.3)
+  - MZAppearance (1.1.5)
   - pop (1.0.7)
+  - UIImage+BlurredFrame (0.0.4)
 
 DEPENDENCIES:
+  - BlurryModalSegue (from `https://github.com/Citrrus/BlurryModalSegue.git`)
   - HexColors (~> 2.2.1)
   - MYBlurIntroductionView (from `https://github.com/MatthewYork/MYBlurIntroductionView.git`)
   - pop (from `https://github.com/facebook/pop.git`)
 
 EXTERNAL SOURCES:
+  BlurryModalSegue:
+    :git: https://github.com/Citrrus/BlurryModalSegue.git
   MYBlurIntroductionView:
     :git: https://github.com/MatthewYork/MYBlurIntroductionView.git
   pop:
     :git: https://github.com/facebook/pop.git
 
 CHECKOUT OPTIONS:
+  BlurryModalSegue:
+    :commit: ca6b1238f4fa86ef8ce676dfb9080c08dcefa105
+    :git: https://github.com/Citrrus/BlurryModalSegue.git
   MYBlurIntroductionView:
     :commit: 2ab6e0a098970242bb97f188c66e7b4917e11d86
     :git: https://github.com/MatthewYork/MYBlurIntroductionView.git
@@ -23,8 +34,11 @@ CHECKOUT OPTIONS:
     :git: https://github.com/facebook/pop.git
 
 SPEC CHECKSUMS:
+  BlurryModalSegue: 35cdad34eba31228e4d84073033a9ea7d6537aa4
   HexColors: abfd172e329dab59888614ccba6f216cec59289d
   MYBlurIntroductionView: b12651c25574580472ff34989a4c5b81c157009f
+  MZAppearance: 6e9dc64e42074c0a19812a327f590746c3283bab
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  UIImage+BlurredFrame: ad2f7195c6947ea3117c7d202f75a51958d5061a
 
 COCOAPODS: 0.37.2

@@ -15,12 +15,12 @@
 		508686661B3EFCA20045F0DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508686641B3EFCA20045F0DD /* LaunchScreen.xib */; };
 		508686721B3EFCA20045F0DD /* PasswordKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508686711B3EFCA20045F0DD /* PasswordKeeperTests.swift */; };
 		57E7035974B9647286F8FC66 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B487EDF99BFAE8A3ED8CB15 /* libPods.a */; };
-		DFA842291B40515600FF5E1D /* CollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA8421E1B40515600FF5E1D /* CollectionModel.m */; };
-		DFA8422A1B40515600FF5E1D /* CategaryDescriptEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA842201B40515600FF5E1D /* CategaryDescriptEntity.m */; };
-		DFA8422B1B40515600FF5E1D /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA842221B40515600FF5E1D /* UserModel.m */; };
-		DFA8422C1B40515600FF5E1D /* PasswordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA842241B40515600FF5E1D /* PasswordModel.m */; };
-		DFA8422D1B40515600FF5E1D /* HistorySearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA842261B40515600FF5E1D /* HistorySearchModel.m */; };
-		DFA8422E1B40515600FF5E1D /* RegisterModeDescriptModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA842281B40515600FF5E1D /* RegisterModeDescriptModel.m */; };
+		DFA842351B40526700FF5E1D /* PasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA8422F1B40526700FF5E1D /* PasswordModel.swift */; };
+		DFA842361B40526700FF5E1D /* HistorySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842301B40526700FF5E1D /* HistorySearchModel.swift */; };
+		DFA842371B40526700FF5E1D /* CategaryDescriptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842311B40526700FF5E1D /* CategaryDescriptModel.swift */; };
+		DFA842381B40526700FF5E1D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842321B40526700FF5E1D /* UserModel.swift */; };
+		DFA842391B40526700FF5E1D /* RegisterModeDescriptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842331B40526700FF5E1D /* RegisterModeDescriptModel.swift */; };
+		DFA8423A1B40526700FF5E1D /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842341B40526700FF5E1D /* CollectionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,18 +49,12 @@
 		508686711B3EFCA20045F0DD /* PasswordKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordKeeperTests.swift; sourceTree = "<group>"; };
 		5C1DDEC0047B70E51CD48EBB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DF0AFBF01B3FC10300D05DE8 /* IntroduceGuideHeader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IntroduceGuideHeader-Bridging-Header.h"; path = "PasswordKeeper/Libs/IntroduceGuideHeader-Bridging-Header.h"; sourceTree = "<group>"; };
-		DFA8421D1B40515600FF5E1D /* CollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionModel.h; path = PasswordKeeper/Model/CollectionModel.h; sourceTree = "<group>"; };
-		DFA8421E1B40515600FF5E1D /* CollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionModel.m; path = PasswordKeeper/Model/CollectionModel.m; sourceTree = "<group>"; };
-		DFA8421F1B40515600FF5E1D /* CategaryDescriptEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategaryDescriptEntity.h; path = PasswordKeeper/Model/CategaryDescriptEntity.h; sourceTree = "<group>"; };
-		DFA842201B40515600FF5E1D /* CategaryDescriptEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategaryDescriptEntity.m; path = PasswordKeeper/Model/CategaryDescriptEntity.m; sourceTree = "<group>"; };
-		DFA842211B40515600FF5E1D /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = PasswordKeeper/Model/UserModel.h; sourceTree = "<group>"; };
-		DFA842221B40515600FF5E1D /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = PasswordKeeper/Model/UserModel.m; sourceTree = "<group>"; };
-		DFA842231B40515600FF5E1D /* PasswordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PasswordModel.h; path = PasswordKeeper/Model/PasswordModel.h; sourceTree = "<group>"; };
-		DFA842241B40515600FF5E1D /* PasswordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PasswordModel.m; path = PasswordKeeper/Model/PasswordModel.m; sourceTree = "<group>"; };
-		DFA842251B40515600FF5E1D /* HistorySearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistorySearchModel.h; path = PasswordKeeper/Model/HistorySearchModel.h; sourceTree = "<group>"; };
-		DFA842261B40515600FF5E1D /* HistorySearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistorySearchModel.m; path = PasswordKeeper/Model/HistorySearchModel.m; sourceTree = "<group>"; };
-		DFA842271B40515600FF5E1D /* RegisterModeDescriptModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterModeDescriptModel.h; path = PasswordKeeper/Model/RegisterModeDescriptModel.h; sourceTree = "<group>"; };
-		DFA842281B40515600FF5E1D /* RegisterModeDescriptModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterModeDescriptModel.m; path = PasswordKeeper/Model/RegisterModeDescriptModel.m; sourceTree = "<group>"; };
+		DFA8422F1B40526700FF5E1D /* PasswordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordModel.swift; path = PasswordKeeper/Model/PasswordModel.swift; sourceTree = "<group>"; };
+		DFA842301B40526700FF5E1D /* HistorySearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistorySearchModel.swift; path = PasswordKeeper/Model/HistorySearchModel.swift; sourceTree = "<group>"; };
+		DFA842311B40526700FF5E1D /* CategaryDescriptModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategaryDescriptModel.swift; path = PasswordKeeper/Model/CategaryDescriptModel.swift; sourceTree = "<group>"; };
+		DFA842321B40526700FF5E1D /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = PasswordKeeper/Model/UserModel.swift; sourceTree = "<group>"; };
+		DFA842331B40526700FF5E1D /* RegisterModeDescriptModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterModeDescriptModel.swift; path = PasswordKeeper/Model/RegisterModeDescriptModel.swift; sourceTree = "<group>"; };
+		DFA842341B40526700FF5E1D /* CollectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionModel.swift; path = PasswordKeeper/Model/CollectionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,18 +156,12 @@
 		DFA8421C1B40514400FF5E1D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DFA8421D1B40515600FF5E1D /* CollectionModel.h */,
-				DFA8421E1B40515600FF5E1D /* CollectionModel.m */,
-				DFA8421F1B40515600FF5E1D /* CategaryDescriptEntity.h */,
-				DFA842201B40515600FF5E1D /* CategaryDescriptEntity.m */,
-				DFA842211B40515600FF5E1D /* UserModel.h */,
-				DFA842221B40515600FF5E1D /* UserModel.m */,
-				DFA842231B40515600FF5E1D /* PasswordModel.h */,
-				DFA842241B40515600FF5E1D /* PasswordModel.m */,
-				DFA842251B40515600FF5E1D /* HistorySearchModel.h */,
-				DFA842261B40515600FF5E1D /* HistorySearchModel.m */,
-				DFA842271B40515600FF5E1D /* RegisterModeDescriptModel.h */,
-				DFA842281B40515600FF5E1D /* RegisterModeDescriptModel.m */,
+				DFA8422F1B40526700FF5E1D /* PasswordModel.swift */,
+				DFA842301B40526700FF5E1D /* HistorySearchModel.swift */,
+				DFA842311B40526700FF5E1D /* CategaryDescriptModel.swift */,
+				DFA842321B40526700FF5E1D /* UserModel.swift */,
+				DFA842331B40526700FF5E1D /* RegisterModeDescriptModel.swift */,
+				DFA842341B40526700FF5E1D /* CollectionModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -322,14 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFA8422D1B40515600FF5E1D /* HistorySearchModel.m in Sources */,
-				DFA8422A1B40515600FF5E1D /* CategaryDescriptEntity.m in Sources */,
 				5086865E1B3EFCA20045F0DD /* ViewController.swift in Sources */,
-				DFA842291B40515600FF5E1D /* CollectionModel.m in Sources */,
-				DFA8422B1B40515600FF5E1D /* UserModel.m in Sources */,
+				DFA842381B40526700FF5E1D /* UserModel.swift in Sources */,
+				DFA842371B40526700FF5E1D /* CategaryDescriptModel.swift in Sources */,
+				DFA842391B40526700FF5E1D /* RegisterModeDescriptModel.swift in Sources */,
+				DFA842361B40526700FF5E1D /* HistorySearchModel.swift in Sources */,
+				DFA8423A1B40526700FF5E1D /* CollectionModel.swift in Sources */,
 				5086865C1B3EFCA20045F0DD /* PasswordKeeper.xcdatamodeld in Sources */,
-				DFA8422C1B40515600FF5E1D /* PasswordModel.m in Sources */,
-				DFA8422E1B40515600FF5E1D /* RegisterModeDescriptModel.m in Sources */,
+				DFA842351B40526700FF5E1D /* PasswordModel.swift in Sources */,
 				508686591B3EFCA20045F0DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,7 +448,7 @@
 				INFOPLIST_FILE = PasswordKeeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gongsha/Documents/Code/workspace/other/PasswordKeeper/IntroduceGuideHeader-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -473,7 +461,7 @@
 				INFOPLIST_FILE = PasswordKeeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gongsha/Documents/Code/workspace/other/PasswordKeeper/IntroduceGuideHeader-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
