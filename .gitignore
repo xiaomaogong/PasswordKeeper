@@ -1,1 +1,13 @@
-./Pods
+#CocoPods
+Pods/
+
+#Xcode files
+#This ignores everything inside a *.xcodeproj except the project.pbxproj
+*xcshareddata*
+build/
+*.mode1*
+*.so*
+*.pbxuser
+*.xcworkspacedata
+xcuserdata
+*.perspective*
