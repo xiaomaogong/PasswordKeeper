@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		508686591B3EFCA20045F0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508686581B3EFCA20045F0DD /* AppDelegate.swift */; };
 		5086865C1B3EFCA20045F0DD /* PasswordKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5086865A1B3EFCA20045F0DD /* PasswordKeeper.xcdatamodeld */; };
-		5086865E1B3EFCA20045F0DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5086865D1B3EFCA20045F0DD /* ViewController.swift */; };
 		508686611B3EFCA20045F0DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5086865F1B3EFCA20045F0DD /* Main.storyboard */; };
 		508686631B3EFCA20045F0DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508686621B3EFCA20045F0DD /* Images.xcassets */; };
 		508686661B3EFCA20045F0DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508686641B3EFCA20045F0DD /* LaunchScreen.xib */; };
 		508686721B3EFCA20045F0DD /* PasswordKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508686711B3EFCA20045F0DD /* PasswordKeeperTests.swift */; };
 		57E7035974B9647286F8FC66 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B487EDF99BFAE8A3ED8CB15 /* libPods.a */; };
+		DF0A09CA1B4BEFA700184799 /* PKTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A09C91B4BEFA700184799 /* PKTabBarViewController.swift */; };
+		DF0A09CD1B4BF14F00184799 /* PKMasterPasswordSettingIntroPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0A09CC1B4BF14F00184799 /* PKMasterPasswordSettingIntroPage.xib */; };
+		DF0A09CF1B4BF17E00184799 /* PKMasterPasswordSettingIntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A09CE1B4BF17E00184799 /* PKMasterPasswordSettingIntroPage.swift */; };
+		DF0A09D11B4BF26300184799 /* PKPasswordNotifyIntroPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0A09D01B4BF26300184799 /* PKPasswordNotifyIntroPage.xib */; };
+		DF0A09D31B4BF30E00184799 /* PKPasswordNotifyIntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A09D21B4BF30E00184799 /* PKPasswordNotifyIntroPage.swift */; };
+		DF0A09D51B4BF48700184799 /* TKStartIntroPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0A09D41B4BF48700184799 /* TKStartIntroPage.xib */; };
+		DF0A09D71B4BF49700184799 /* TKStartIntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A09D61B4BF49700184799 /* TKStartIntroPage.swift */; };
 		DF6AAF901B49414600EAC5D0 /* ItemsManController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF8F1B49414600EAC5D0 /* ItemsManController.swift */; };
 		DF6AAF951B4941D100EAC5D0 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */; };
 		DF6AAF9A1B4948E300EAC5D0 /* PKErrorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */; };
@@ -43,7 +49,6 @@
 		508686571B3EFCA20045F0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		508686581B3EFCA20045F0DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5086865B1B3EFCA20045F0DD /* PasswordKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordKeeper.xcdatamodel; sourceTree = "<group>"; };
-		5086865D1B3EFCA20045F0DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		508686601B3EFCA20045F0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		508686621B3EFCA20045F0DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		508686651B3EFCA20045F0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		508686701B3EFCA20045F0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		508686711B3EFCA20045F0DD /* PasswordKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordKeeperTests.swift; sourceTree = "<group>"; };
 		5C1DDEC0047B70E51CD48EBB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DF0A09C91B4BEFA700184799 /* PKTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKTabBarViewController.swift; path = ../PKTabBarViewController.swift; sourceTree = "<group>"; };
+		DF0A09CC1B4BF14F00184799 /* PKMasterPasswordSettingIntroPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKMasterPasswordSettingIntroPage.xib; sourceTree = "<group>"; };
+		DF0A09CE1B4BF17E00184799 /* PKMasterPasswordSettingIntroPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKMasterPasswordSettingIntroPage.swift; sourceTree = "<group>"; };
+		DF0A09D01B4BF26300184799 /* PKPasswordNotifyIntroPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKPasswordNotifyIntroPage.xib; sourceTree = "<group>"; };
+		DF0A09D21B4BF30E00184799 /* PKPasswordNotifyIntroPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKPasswordNotifyIntroPage.swift; sourceTree = "<group>"; };
+		DF0A09D41B4BF48700184799 /* TKStartIntroPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKStartIntroPage.xib; sourceTree = "<group>"; };
+		DF0A09D61B4BF49700184799 /* TKStartIntroPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKStartIntroPage.swift; sourceTree = "<group>"; };
 		DF0AFBF01B3FC10300D05DE8 /* IntroduceGuideHeader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IntroduceGuideHeader-Bridging-Header.h"; path = "PasswordKeeper/Libs/IntroduceGuideHeader-Bridging-Header.h"; sourceTree = "<group>"; };
 		DF6AAF8F1B49414600EAC5D0 /* ItemsManController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManController.swift; sourceTree = "<group>"; };
 		DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
@@ -107,10 +119,11 @@
 		508686551B3EFCA20045F0DD /* PasswordKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				DF0A09CB1B4BF0AB00184799 /* IntroPages */,
 				DF6AAF981B49488000EAC5D0 /* Foundation */,
 				DF6AAF931B49417E00EAC5D0 /* Item */,
 				508686581B3EFCA20045F0DD /* AppDelegate.swift */,
-				5086865D1B3EFCA20045F0DD /* ViewController.swift */,
+				DF0A09C91B4BEFA700184799 /* PKTabBarViewController.swift */,
 				5086865F1B3EFCA20045F0DD /* Main.storyboard */,
 				508686621B3EFCA20045F0DD /* Images.xcassets */,
 				508686641B3EFCA20045F0DD /* LaunchScreen.xib */,
@@ -151,6 +164,19 @@
 				2B487EDF99BFAE8A3ED8CB15 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF0A09CB1B4BF0AB00184799 /* IntroPages */ = {
+			isa = PBXGroup;
+			children = (
+				DF0A09CC1B4BF14F00184799 /* PKMasterPasswordSettingIntroPage.xib */,
+				DF0A09CE1B4BF17E00184799 /* PKMasterPasswordSettingIntroPage.swift */,
+				DF0A09D01B4BF26300184799 /* PKPasswordNotifyIntroPage.xib */,
+				DF0A09D21B4BF30E00184799 /* PKPasswordNotifyIntroPage.swift */,
+				DF0A09D41B4BF48700184799 /* TKStartIntroPage.xib */,
+				DF0A09D61B4BF49700184799 /* TKStartIntroPage.swift */,
+			);
+			path = IntroPages;
 			sourceTree = "<group>";
 		};
 		DF0AFBEE1B3FBB3800D05DE8 /* Libs */ = {
@@ -282,9 +308,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0A09D11B4BF26300184799 /* PKPasswordNotifyIntroPage.xib in Resources */,
 				508686611B3EFCA20045F0DD /* Main.storyboard in Resources */,
 				508686661B3EFCA20045F0DD /* LaunchScreen.xib in Resources */,
+				DF0A09D51B4BF48700184799 /* TKStartIntroPage.xib in Resources */,
 				508686631B3EFCA20045F0DD /* Images.xcassets in Resources */,
+				DF0A09CD1B4BF14F00184799 /* PKMasterPasswordSettingIntroPage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,17 +364,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5086865E1B3EFCA20045F0DD /* ViewController.swift in Sources */,
 				DFA842381B40526700FF5E1D /* UserModel.swift in Sources */,
 				DF6AAF901B49414600EAC5D0 /* ItemsManController.swift in Sources */,
+				DF0A09CA1B4BEFA700184799 /* PKTabBarViewController.swift in Sources */,
 				DF6AAF9A1B4948E300EAC5D0 /* PKErrorOperation.swift in Sources */,
 				DFA842371B40526700FF5E1D /* CategaryDescriptModel.swift in Sources */,
 				DFA842391B40526700FF5E1D /* RegisterModeDescriptModel.swift in Sources */,
+				DF0A09CF1B4BF17E00184799 /* PKMasterPasswordSettingIntroPage.swift in Sources */,
 				DFA842361B40526700FF5E1D /* HistorySearchModel.swift in Sources */,
 				DFA8423A1B40526700FF5E1D /* CollectionModel.swift in Sources */,
 				5086865C1B3EFCA20045F0DD /* PasswordKeeper.xcdatamodeld in Sources */,
+				DF0A09D31B4BF30E00184799 /* PKPasswordNotifyIntroPage.swift in Sources */,
 				DFA842351B40526700FF5E1D /* PasswordModel.swift in Sources */,
 				DF6AAF951B4941D100EAC5D0 /* ItemTableViewCell.swift in Sources */,
+				DF0A09D71B4BF49700184799 /* TKStartIntroPage.swift in Sources */,
 				508686591B3EFCA20045F0DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
