@@ -10,12 +10,8 @@ import UIKit
 
 class TKStartIntroPage: MYIntroductionPanel {
 
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
+   
+    @IBAction func startClick(sender: UIButton) {
+        self.parentIntroductionView.didPressSkipButton()
     }
-    */
-
 }
