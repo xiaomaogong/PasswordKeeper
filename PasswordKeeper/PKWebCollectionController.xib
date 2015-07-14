@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PKWebCollectionController" customModule="PasswordKeeper" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="c7k-ch-oGk">
+                <size key="itemSize" width="50" height="50"/>
+                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            </collectionViewFlowLayout>
+            <connections>
+                <outlet property="dataSource" destination="-1" id="Tng-2m-Rnh"/>
+                <outlet property="delegate" destination="-1" id="9aC-8N-iBw"/>
+            </connections>
+        </collectionView>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="pkAddWebCellId" id="UO0-1K-1fC">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Chl-te-OQ3">
+                        <rect key="frame" x="8" y="19" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="vGq-y3-Hpb"/>
+                            <constraint firstAttribute="height" constant="22" id="yy5-JL-fNd"/>
+                        </constraints>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新建网站" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gIo-OM-FFU">
+                        <rect key="frame" x="40" y="0.0" width="374" height="60"/>
+                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="gIo-OM-FFU" secondAttribute="trailing" id="C6v-Fr-NDG"/>
+                <constraint firstItem="Chl-te-OQ3" firstAttribute="leading" secondItem="UO0-1K-1fC" secondAttribute="leading" constant="8" id="Dh4-d3-IjK"/>
+                <constraint firstAttribute="centerY" secondItem="Chl-te-OQ3" secondAttribute="centerY" id="TWq-iR-xMe"/>
+                <constraint firstAttribute="bottom" secondItem="gIo-OM-FFU" secondAttribute="bottom" id="b5Y-yd-oW9"/>
+                <constraint firstItem="gIo-OM-FFU" firstAttribute="top" secondItem="UO0-1K-1fC" secondAttribute="top" id="dI3-Wx-OyZ"/>
+                <constraint firstItem="gIo-OM-FFU" firstAttribute="leading" secondItem="Chl-te-OQ3" secondAttribute="trailing" constant="10" id="v2L-UT-6Ht"/>
+            </constraints>
+            <point key="canvasLocation" x="284" y="906"/>
+        </collectionViewCell>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="pkWebHintCellId" id="Jf2-wU-3Jh">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="以下常用网站：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgU-TA-6v1">
+                        <rect key="frame" x="8" y="0.0" width="406" height="35"/>
+                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="pgU-TA-6v1" firstAttribute="top" secondItem="Jf2-wU-3Jh" secondAttribute="top" id="8oY-h1-iA8"/>
+                <constraint firstAttribute="bottom" secondItem="pgU-TA-6v1" secondAttribute="bottom" id="9RZ-Fj-xya"/>
+                <constraint firstItem="pgU-TA-6v1" firstAttribute="leading" secondItem="Jf2-wU-3Jh" secondAttribute="leading" constant="8" id="sqh-Jj-yd9"/>
+                <constraint firstAttribute="trailing" secondItem="pgU-TA-6v1" secondAttribute="trailing" id="t6W-bI-gta"/>
+            </constraints>
+            <point key="canvasLocation" x="284" y="1041.5"/>
+        </collectionViewCell>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="pkWebSectionId" id="7JB-Ey-cSd">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="35"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OG8-Vl-KSz">
+                        <rect key="frame" x="8" y="0.0" width="406" height="35"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="OG8-Vl-KSz" secondAttribute="bottom" id="fTW-LF-beT"/>
+                <constraint firstItem="OG8-Vl-KSz" firstAttribute="leading" secondItem="7JB-Ey-cSd" secondAttribute="leading" constant="8" id="jR3-M9-XBZ"/>
+                <constraint firstAttribute="trailing" secondItem="OG8-Vl-KSz" secondAttribute="trailing" id="qo3-JU-t3m"/>
+                <constraint firstItem="OG8-Vl-KSz" firstAttribute="top" secondItem="7JB-Ey-cSd" secondAttribute="top" id="xQp-lX-wde"/>
+            </constraints>
+            <size key="customSize" width="414" height="36"/>
+            <point key="canvasLocation" x="284" y="1205.5"/>
+        </collectionViewCell>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="pkWebCellId" id="Pu3-2i-EpA">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xpl-1G-uNN">
+                        <rect key="frame" x="23" y="0.0" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Xpl-1G-uNN" secondAttribute="height" multiplier="1:1" id="54T-jV-9Y3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amazon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0D-ho-F4H">
+                        <rect key="frame" x="93" y="0.0" width="321" height="60"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Xpl-1G-uNN" firstAttribute="leading" secondItem="Pu3-2i-EpA" secondAttribute="leading" constant="23" id="4wM-rw-EPD"/>
+                <constraint firstAttribute="bottom" secondItem="Xpl-1G-uNN" secondAttribute="bottom" id="N5b-21-6OJ"/>
+                <constraint firstItem="O0D-ho-F4H" firstAttribute="leading" secondItem="Xpl-1G-uNN" secondAttribute="trailing" constant="10" id="Nf2-Xb-Wkw"/>
+                <constraint firstItem="Xpl-1G-uNN" firstAttribute="top" secondItem="Pu3-2i-EpA" secondAttribute="top" id="WHW-2D-Gd4"/>
+                <constraint firstAttribute="trailing" secondItem="O0D-ho-F4H" secondAttribute="trailing" id="l4f-cn-4vC"/>
+                <constraint firstItem="O0D-ho-F4H" firstAttribute="top" secondItem="Pu3-2i-EpA" secondAttribute="top" id="wXk-Wm-p0Q"/>
+                <constraint firstAttribute="bottom" secondItem="O0D-ho-F4H" secondAttribute="bottom" id="ye7-lO-lQP"/>
+            </constraints>
+            <point key="canvasLocation" x="284" y="1286"/>
+        </collectionViewCell>
+    </objects>
+</document>

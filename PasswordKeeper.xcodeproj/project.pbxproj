@@ -14,6 +14,11 @@
 		508686661B3EFCA20045F0DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508686641B3EFCA20045F0DD /* LaunchScreen.xib */; };
 		508686721B3EFCA20045F0DD /* PasswordKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508686711B3EFCA20045F0DD /* PasswordKeeperTests.swift */; };
 		57E7035974B9647286F8FC66 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B487EDF99BFAE8A3ED8CB15 /* libPods.a */; };
+		DF0889671B554EEE00101C5E /* PKUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0889661B554EEE00101C5E /* PKUtil.swift */; };
+		DF08896A1B55546000101C5E /* PKWebCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0889681B55546000101C5E /* PKWebCollectionController.swift */; };
+		DF08896B1B55546000101C5E /* PKWebCollectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0889691B55546000101C5E /* PKWebCollectionController.xib */; };
+		DF08896E1B555BE400101C5E /* PKItemOperateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08896C1B555BE400101C5E /* PKItemOperateController.swift */; };
+		DF08896F1B555BE400101C5E /* PKItemOperateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF08896D1B555BE400101C5E /* PKItemOperateController.xib */; };
 		DF0A09CA1B4BEFA700184799 /* PKTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A09C91B4BEFA700184799 /* PKTabBarViewController.swift */; };
 		DF0A09CD1B4BF14F00184799 /* PKMasterPasswordSettingIntroPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0A09CC1B4BF14F00184799 /* PKMasterPasswordSettingIntroPage.xib */; };
 		DF0A09CF1B4BF17E00184799 /* PKMasterPasswordSettingIntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A09CE1B4BF17E00184799 /* PKMasterPasswordSettingIntroPage.swift */; };
@@ -56,6 +61,11 @@
 		508686701B3EFCA20045F0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		508686711B3EFCA20045F0DD /* PasswordKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordKeeperTests.swift; sourceTree = "<group>"; };
 		5C1DDEC0047B70E51CD48EBB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DF0889661B554EEE00101C5E /* PKUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKUtil.swift; sourceTree = "<group>"; };
+		DF0889681B55546000101C5E /* PKWebCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKWebCollectionController.swift; sourceTree = "<group>"; };
+		DF0889691B55546000101C5E /* PKWebCollectionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKWebCollectionController.xib; sourceTree = "<group>"; };
+		DF08896C1B555BE400101C5E /* PKItemOperateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKItemOperateController.swift; sourceTree = "<group>"; };
+		DF08896D1B555BE400101C5E /* PKItemOperateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKItemOperateController.xib; sourceTree = "<group>"; };
 		DF0A09C91B4BEFA700184799 /* PKTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PKTabBarViewController.swift; path = ../PKTabBarViewController.swift; sourceTree = "<group>"; };
 		DF0A09CC1B4BF14F00184799 /* PKMasterPasswordSettingIntroPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKMasterPasswordSettingIntroPage.xib; sourceTree = "<group>"; };
 		DF0A09CE1B4BF17E00184799 /* PKMasterPasswordSettingIntroPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKMasterPasswordSettingIntroPage.swift; sourceTree = "<group>"; };
@@ -119,6 +129,7 @@
 		508686551B3EFCA20045F0DD /* PasswordKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				DF0889651B554D7C00101C5E /* Util */,
 				DF0A09CB1B4BF0AB00184799 /* IntroPages */,
 				DF6AAF981B49488000EAC5D0 /* Foundation */,
 				DF6AAF931B49417E00EAC5D0 /* Item */,
@@ -166,6 +177,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF0889651B554D7C00101C5E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DF0889661B554EEE00101C5E /* PKUtil.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		DF0A09CB1B4BF0AB00184799 /* IntroPages */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +211,10 @@
 			children = (
 				DF6AAF8F1B49414600EAC5D0 /* ItemsManController.swift */,
 				DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */,
+				DF0889681B55546000101C5E /* PKWebCollectionController.swift */,
+				DF0889691B55546000101C5E /* PKWebCollectionController.xib */,
+				DF08896C1B555BE400101C5E /* PKItemOperateController.swift */,
+				DF08896D1B555BE400101C5E /* PKItemOperateController.xib */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -310,9 +333,11 @@
 			files = (
 				DF0A09D11B4BF26300184799 /* PKPasswordNotifyIntroPage.xib in Resources */,
 				508686611B3EFCA20045F0DD /* Main.storyboard in Resources */,
+				DF08896F1B555BE400101C5E /* PKItemOperateController.xib in Resources */,
 				508686661B3EFCA20045F0DD /* LaunchScreen.xib in Resources */,
 				DF0A09D51B4BF48700184799 /* TKStartIntroPage.xib in Resources */,
 				508686631B3EFCA20045F0DD /* Images.xcassets in Resources */,
+				DF08896B1B55546000101C5E /* PKWebCollectionController.xib in Resources */,
 				DF0A09CD1B4BF14F00184799 /* PKMasterPasswordSettingIntroPage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,7 +389,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF08896E1B555BE400101C5E /* PKItemOperateController.swift in Sources */,
+				DF0889671B554EEE00101C5E /* PKUtil.swift in Sources */,
 				DFA842381B40526700FF5E1D /* UserModel.swift in Sources */,
+				DF08896A1B55546000101C5E /* PKWebCollectionController.swift in Sources */,
 				DF6AAF901B49414600EAC5D0 /* ItemsManController.swift in Sources */,
 				DF0A09CA1B4BEFA700184799 /* PKTabBarViewController.swift in Sources */,
 				DF6AAF9A1B4948E300EAC5D0 /* PKErrorOperation.swift in Sources */,
