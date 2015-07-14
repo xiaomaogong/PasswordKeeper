@@ -29,6 +29,7 @@
 		DF6AAF901B49414600EAC5D0 /* ItemsManController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF8F1B49414600EAC5D0 /* ItemsManController.swift */; };
 		DF6AAF951B4941D100EAC5D0 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */; };
 		DF6AAF9A1B4948E300EAC5D0 /* PKErrorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */; };
+		DF88CB5B1B528163001757F0 /* PKIntroPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF88CB5A1B528163001757F0 /* PKIntroPageModel.swift */; };
 		DFA842351B40526700FF5E1D /* PasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA8422F1B40526700FF5E1D /* PasswordModel.swift */; };
 		DFA842361B40526700FF5E1D /* HistorySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842301B40526700FF5E1D /* HistorySearchModel.swift */; };
 		DFA842371B40526700FF5E1D /* CategaryDescriptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842311B40526700FF5E1D /* CategaryDescriptModel.swift */; };
@@ -77,6 +78,7 @@
 		DF6AAF8F1B49414600EAC5D0 /* ItemsManController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManController.swift; sourceTree = "<group>"; };
 		DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKErrorOperation.swift; sourceTree = "<group>"; };
+		DF88CB5A1B528163001757F0 /* PKIntroPageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKIntroPageModel.swift; sourceTree = "<group>"; };
 		DFA8422F1B40526700FF5E1D /* PasswordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordModel.swift; path = PasswordKeeper/Model/PasswordModel.swift; sourceTree = "<group>"; };
 		DFA842301B40526700FF5E1D /* HistorySearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistorySearchModel.swift; path = PasswordKeeper/Model/HistorySearchModel.swift; sourceTree = "<group>"; };
 		DFA842311B40526700FF5E1D /* CategaryDescriptModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategaryDescriptModel.swift; path = PasswordKeeper/Model/CategaryDescriptModel.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				DF0889651B554D7C00101C5E /* Util */,
+				DF88CB591B5280D8001757F0 /* Models */,
 				DF0A09CB1B4BF0AB00184799 /* IntroPages */,
 				DF6AAF981B49488000EAC5D0 /* Foundation */,
 				DF6AAF931B49417E00EAC5D0 /* Item */,
@@ -225,6 +228,14 @@
 				DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */,
 			);
 			name = Foundation;
+			sourceTree = "<group>";
+		};
+		DF88CB591B5280D8001757F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF88CB5A1B528163001757F0 /* PKIntroPageModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		DFA8421C1B40514400FF5E1D /* Model */ = {
@@ -398,6 +409,7 @@
 				DF6AAF9A1B4948E300EAC5D0 /* PKErrorOperation.swift in Sources */,
 				DFA842371B40526700FF5E1D /* CategaryDescriptModel.swift in Sources */,
 				DFA842391B40526700FF5E1D /* RegisterModeDescriptModel.swift in Sources */,
+				DF88CB5B1B528163001757F0 /* PKIntroPageModel.swift in Sources */,
 				DF0A09CF1B4BF17E00184799 /* PKMasterPasswordSettingIntroPage.swift in Sources */,
 				DFA842361B40526700FF5E1D /* HistorySearchModel.swift in Sources */,
 				DFA8423A1B40526700FF5E1D /* CollectionModel.swift in Sources */,
