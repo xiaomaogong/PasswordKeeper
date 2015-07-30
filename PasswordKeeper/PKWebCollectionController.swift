@@ -13,16 +13,17 @@ let reuseWebDescripteCellId = "webDescriptCell"
 let reuseWebInitialsCellId = "webInitialsCell"
 let reuseWebCellId = "webCell"
 
-class PKWebCollectionController: UIViewController<UICollectionViewDataSource, UICollectionViewDelegate> {
+class PKWebCollectionController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
+    @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Register cell classes
         self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseWebAddUrlCellId)
-        self.collectionVIew!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseWebDescripteCellId)
-        self.collectionVIew!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseWebInitialsCellId)
-        self.collectionVIew!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseWebCellId)
+        self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseWebDescripteCellId)
+        self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseWebInitialsCellId)
+        self.collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseWebCellId)
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,20 +32,18 @@ class PKWebCollectionController: UIViewController<UICollectionViewDataSource, UI
     }
 
     // MARK: UICollectionViewDataSource
-
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-        
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
     }
 
 
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
        
         return 1
     }
 
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! UICollectionViewCell
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseWebCellId, forIndexPath: indexPath) as! UICollectionViewCell
     
         return cell
     }
