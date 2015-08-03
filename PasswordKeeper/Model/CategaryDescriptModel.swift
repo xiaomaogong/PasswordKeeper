@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class CategaryDescriptModel: NSManagedObject {
+public class CategaryDescriptModel: NSManagedObject {
 
     @NSManaged var dbCategaryDescriptor: String
     @NSManaged var dbCategaryID: NSNumber

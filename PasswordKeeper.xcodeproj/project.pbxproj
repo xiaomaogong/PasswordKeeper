@@ -26,6 +26,7 @@
 		DF0A09D31B4BF30E00184799 /* PKPasswordNotifyIntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A09D21B4BF30E00184799 /* PKPasswordNotifyIntroPage.swift */; };
 		DF0A09D51B4BF48700184799 /* TKStartIntroPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0A09D41B4BF48700184799 /* TKStartIntroPage.xib */; };
 		DF0A09D71B4BF49700184799 /* TKStartIntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0A09D61B4BF49700184799 /* TKStartIntroPage.swift */; };
+		DF17EBBE1B6FAC9F00ADD547 /* PKDataAccessLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF17EBBD1B6FAC9F00ADD547 /* PKDataAccessLayer.swift */; };
 		DF6AAF901B49414600EAC5D0 /* ItemsManController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF8F1B49414600EAC5D0 /* ItemsManController.swift */; };
 		DF6AAF951B4941D100EAC5D0 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */; };
 		DF6AAF9A1B4948E300EAC5D0 /* PKErrorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */; };
@@ -75,6 +76,7 @@
 		DF0A09D41B4BF48700184799 /* TKStartIntroPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKStartIntroPage.xib; sourceTree = "<group>"; };
 		DF0A09D61B4BF49700184799 /* TKStartIntroPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKStartIntroPage.swift; sourceTree = "<group>"; };
 		DF0AFBF01B3FC10300D05DE8 /* IntroduceGuideHeader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IntroduceGuideHeader-Bridging-Header.h"; path = "PasswordKeeper/Libs/IntroduceGuideHeader-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF17EBBD1B6FAC9F00ADD547 /* PKDataAccessLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKDataAccessLayer.swift; sourceTree = "<group>"; };
 		DF6AAF8F1B49414600EAC5D0 /* ItemsManController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManController.swift; sourceTree = "<group>"; };
 		DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKErrorOperation.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		508686551B3EFCA20045F0DD /* PasswordKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				DF17EBBC1B6FAC6C00ADD547 /* DAL */,
 				DF0889651B554D7C00101C5E /* Util */,
 				DF88CB591B5280D8001757F0 /* Models */,
 				DF0A09CB1B4BF0AB00184799 /* IntroPages */,
@@ -207,6 +210,14 @@
 				DF0AFBF01B3FC10300D05DE8 /* IntroduceGuideHeader-Bridging-Header.h */,
 			);
 			name = Libs;
+			sourceTree = "<group>";
+		};
+		DF17EBBC1B6FAC6C00ADD547 /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				DF17EBBD1B6FAC9F00ADD547 /* PKDataAccessLayer.swift */,
+			);
+			path = DAL;
 			sourceTree = "<group>";
 		};
 		DF6AAF931B49417E00EAC5D0 /* Item */ = {
@@ -418,6 +429,7 @@
 				DFA842351B40526700FF5E1D /* PasswordModel.swift in Sources */,
 				DF6AAF951B4941D100EAC5D0 /* ItemTableViewCell.swift in Sources */,
 				DF0A09D71B4BF49700184799 /* TKStartIntroPage.swift in Sources */,
+				DF17EBBE1B6FAC9F00ADD547 /* PKDataAccessLayer.swift in Sources */,
 				508686591B3EFCA20045F0DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
