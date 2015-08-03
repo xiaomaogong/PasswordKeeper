@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PKTabBarViewController: UITabBarController,MYIntroductionDelegate {
+class PKTabBarController: UITabBarController,MYIntroductionDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()

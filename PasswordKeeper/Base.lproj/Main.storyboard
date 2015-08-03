@@ -7,10 +7,10 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar View Controller-->
+        <!--Tab Bar Controller-->
         <scene sceneID="u1x-3j-2Kt">
             <objects>
-                <tabBarController id="RA4-wg-9uP" customClass="PKTabBarViewController" customModule="PasswordKeeper" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="RA4-wg-9uP" customClass="PKTabBarController" customModule="PasswordKeeper" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="HxE-ay-KUd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
