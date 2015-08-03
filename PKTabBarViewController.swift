@@ -22,7 +22,7 @@ class PKTabBarViewController: UITabBarController,MYIntroductionDelegate {
     }
     
     override func viewDidAppear(animated: Bool) {
-        self.buildIntroductionPages()
+//        self.buildIntroductionPages()
     }
     
     
