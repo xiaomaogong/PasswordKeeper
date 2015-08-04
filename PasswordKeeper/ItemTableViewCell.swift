@@ -10,9 +10,11 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell {
     
+    var data:CategaryDescriptModel?
     @IBOutlet weak var verticalLine: UIView!
     @IBOutlet weak var itemImg: UIImageView!
     @IBOutlet weak var cellBackGround: UIView!
+    @IBOutlet weak var itemName: UIButton!
     
     @IBAction func touchItem(sender: AnyObject) {
         
@@ -29,4 +31,13 @@ class ItemTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    func setupData(data:CategaryDescriptModel) {
+        
+        self.data = data;
+        /// 1.verticalLine
+        /// 2.itemImg
+        /// 3.cellBackGround
+        /// 4.itemName
+        self.itemName .setTitle(self.data?.dbCategaryDescriptor, forState:UIControlState.Normal)
+    }
 }

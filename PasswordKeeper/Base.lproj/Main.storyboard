@@ -88,7 +88,7 @@
                                 <rect key="frame" x="0.0" y="140" width="414" height="547"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="xsl-ko-3Dw" customClass="ItemTableViewCell" customModule="PasswordKeeper" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemTableViewCell" id="xsl-ko-3Dw" customClass="ItemTableViewCell" customModule="PasswordKeeper" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" tableViewCell="xsl-ko-3Dw" id="dRz-AV-wyk">
@@ -215,7 +215,7 @@
                                         <connections>
                                             <outlet property="cellBackGround" destination="L5x-lm-ktY" id="iYY-2i-nZp"/>
                                             <outlet property="itemImg" destination="vZI-RQ-n5r" id="CkG-zD-IB2"/>
-                                            <outlet property="itemName" destination="gUE-8M-bbO" id="gDZ-BO-RaG"/>
+                                            <outlet property="itemName" destination="gUE-8M-bbO" id="Dqz-Ut-oI7"/>
                                             <outlet property="verticalLine" destination="6By-hm-FpI" id="pYy-a8-sh4"/>
                                         </connections>
                                     </tableViewCell>
