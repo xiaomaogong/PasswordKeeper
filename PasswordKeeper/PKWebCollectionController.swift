@@ -43,7 +43,7 @@ class PKWebCollectionController: UIViewController, UICollectionViewDataSource, U
     }
 
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseWebCellId, forIndexPath: indexPath) as! UICollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseWebCellId, forIndexPath: indexPath) 
     
         return cell
     }

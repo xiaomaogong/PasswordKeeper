@@ -12,6 +12,6 @@ class TKStartIntroPage: MYIntroductionPanel {
 
    
     @IBAction func startClick(sender: UIButton) {
-        self.parentIntroductionView.didPressSkipButton()
+        self.parentIntroductionView!.didPressSkipButton()
     }
 }

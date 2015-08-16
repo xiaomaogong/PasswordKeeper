@@ -10,7 +10,7 @@ import UIKit
 
 class ItemsManController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    var allCategaries:Dictionary<String,Array<CategaryDescriptModel>> = ["":[]]
+    var allCategaries:Dictionary<String,Array<CategoryDescriptEntity>> = ["":[]]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -47,7 +47,7 @@ class ItemsManController: UIViewController, UITableViewDelegate, UITableViewData
         
         let cell = tableView.dequeueReusableCellWithIdentifier("ItemTableViewCell", forIndexPath: indexPath) as! ItemTableViewCell
 
-        var item = self.fetchItem(indexPath.section, index: indexPath.row)
+        let item = self.fetchItem(indexPath.section, index: indexPath.row)
         cell.setupData(item)
         return cell
     }
@@ -62,12 +62,12 @@ class ItemsManController: UIViewController, UITableViewDelegate, UITableViewData
         return self.allCategaries.keys.array[section]
     }
     
-    func fetchItem(section: NSInteger, index: NSInteger)-> CategaryDescriptModel {
+    func fetchItem(section: NSInteger, index: NSInteger)-> CategoryDescriptEntity {
         
         return self.allCategaries.values.array[section][index]
     }
     
-    func fetchItems(section: NSInteger)->Array<CategaryDescriptModel> {
+    func fetchItems(section: NSInteger)->Array<CategoryDescriptEntity> {
         
         return self.allCategaries.values.array[section]
     }

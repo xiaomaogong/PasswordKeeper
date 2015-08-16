@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 public class PKUtil: NSObject {
    
@@ -20,6 +21,17 @@ public class PKUtil: NSObject {
     /// TODO:渐变色增加中间是白色
     public static func fetchIconBackgourndColor(img : UIImage) -> UIColor? {
         return nil
+    }
+    
+    
+    static func getAppDelegate() -> AppDelegate {
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate;
+        return appDelegate
+    }
+    
+    ///Core Data
+    static func getManagementContext() -> NSManagedObjectContext{
+        return PKUtil.getAppDelegate().managedObjectContext!;
     }
 
 }

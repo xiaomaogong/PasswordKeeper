@@ -10,7 +10,7 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell {
     
-    var data:CategaryDescriptModel?
+    var data:CategoryDescriptEntity?
     @IBOutlet weak var verticalLine: UIView!
     @IBOutlet weak var itemImg: UIImageView!
     @IBOutlet weak var cellBackGround: UIView!
@@ -31,7 +31,7 @@ class ItemTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    func setupData(data:CategaryDescriptModel) {
+    func setupData(data:CategoryDescriptEntity) {
         
         self.data = data;
         /// 1.verticalLine

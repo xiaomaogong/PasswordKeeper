@@ -20,6 +20,6 @@ class PKPasswordNotifyIntroPage: MYIntroductionPanel {
 
     @IBAction func passwordNotifyEditEnded(sender: UITextField) {
         let model = PKIntroPageModel.shareInstance;
-        model.securityAnswer = sender.text;
+        model.securityAnswer = sender.text!;
     }
 }

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="CategaryDescriptEntity" representedClassName="CategaryDescriptModel" syncable="YES">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CategoryDescriptEntity" representedClassName="CategoryDescriptEntity" syncable="YES">
         <attribute name="dbCategaryDescriptor" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dbCategaryID" optional="YES" attributeType="Integer 64" minValueString="0" defaultValueString="0" syncable="YES"/>
         <attribute name="dbCreateTime" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="dbLastUpdateTime" optional="YES" attributeType="Date" syncable="YES"/>
     </entity>
-    <entity name="CollectionEntity" representedClassName="CollectionModel" syncable="YES">
+    <entity name="CollectionEntity" representedClassName="CollectionEntity" syncable="YES">
         <attribute name="dbCreateTime" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="dbTouchAction" optional="YES" attributeType="Integer 64" minValueString="0" defaultValueString="0" syncable="YES"/>
         <attribute name="dbTouchedTag" optional="YES" attributeType="Integer 64" minValueString="0" defaultValueString="0" syncable="YES"/>
         <attribute name="dbTouchTime" optional="YES" attributeType="Date" syncable="YES"/>
     </entity>
-    <entity name="HistorySearchEntity" representedClassName="HistorySearchModel" syncable="YES">
+    <entity name="HistorySearchEntity" representedClassName="HistorySearchEntity" syncable="YES">
         <attribute name="dbCreateTime" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="dbSearchWord" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PasswordEntity" syncable="YES"/>
     </entity>
-    <entity name="PasswordEntity" representedClassName="PasswordModel" syncable="YES">
+    <entity name="PasswordEntity" representedClassName="PasswordEntity" syncable="YES">
         <attribute name="dbCategary" optional="YES" attributeType="Integer 64" minValueString="0" defaultValueString="0" syncable="YES"/>
         <attribute name="dbCheckedCount" optional="YES" attributeType="Integer 64" minValueString="0" defaultValueString="0" syncable="YES"/>
         <attribute name="dbCreateTime" optional="YES" attributeType="Date" syncable="YES"/>
@@ -30,24 +30,24 @@
         <attribute name="dbURL" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dbUserName" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="RegisterModeDescriptEntity" representedClassName="RegisterModeDescriptModel" syncable="YES">
+    <entity name="RegisterModeDescriptEntity" representedClassName="RegisterModeDescriptEntity" syncable="YES">
         <attribute name="dbCreateTime" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="dbLastUpdateTime" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dbRegisterModeDescript" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dbRegisterModeID" optional="YES" attributeType="Integer 64" minValueString="0" defaultValueString="0" syncable="YES"/>
     </entity>
-    <entity name="UserEntity" representedClassName="UserModel" syncable="YES">
+    <entity name="UserEntity" representedClassName="UserEntity" syncable="YES">
         <attribute name="dbCreateTime" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="dbLastUpdateTime" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="dbMotherPassword" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="dbUserAccount" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="PasswordEntity" positionX="-360" positionY="-117" width="128" height="208"/>
-        <element name="CategaryDescriptEntity" positionX="-81" positionY="-144" width="128" height="103"/>
-        <element name="RegisterModeDescriptEntity" positionX="-72" positionY="9" width="128" height="103"/>
-        <element name="UserEntity" positionX="-72" positionY="147" width="128" height="103"/>
-        <element name="CollectionEntity" positionX="-74" positionY="279" width="128" height="103"/>
+        <element name="CategoryDescriptEntity" positionX="-81" positionY="-144" width="128" height="105"/>
+        <element name="CollectionEntity" positionX="-74" positionY="279" width="128" height="105"/>
         <element name="HistorySearchEntity" positionX="-216" positionY="90" width="128" height="90"/>
+        <element name="PasswordEntity" positionX="-360" positionY="-117" width="128" height="210"/>
+        <element name="RegisterModeDescriptEntity" positionX="-72" positionY="9" width="128" height="105"/>
+        <element name="UserEntity" positionX="-72" positionY="147" width="128" height="105"/>
     </elements>
 </model>

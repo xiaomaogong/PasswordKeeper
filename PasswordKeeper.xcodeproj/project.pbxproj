@@ -31,12 +31,13 @@
 		DF6AAF951B4941D100EAC5D0 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */; };
 		DF6AAF9A1B4948E300EAC5D0 /* PKErrorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */; };
 		DF88CB5B1B528163001757F0 /* PKIntroPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF88CB5A1B528163001757F0 /* PKIntroPageModel.swift */; };
-		DFA842351B40526700FF5E1D /* PasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA8422F1B40526700FF5E1D /* PasswordModel.swift */; };
-		DFA842361B40526700FF5E1D /* HistorySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842301B40526700FF5E1D /* HistorySearchModel.swift */; };
-		DFA842371B40526700FF5E1D /* CategaryDescriptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842311B40526700FF5E1D /* CategaryDescriptModel.swift */; };
-		DFA842381B40526700FF5E1D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842321B40526700FF5E1D /* UserModel.swift */; };
-		DFA842391B40526700FF5E1D /* RegisterModeDescriptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842331B40526700FF5E1D /* RegisterModeDescriptModel.swift */; };
-		DFA8423A1B40526700FF5E1D /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA842341B40526700FF5E1D /* CollectionModel.swift */; };
+		DF90CE631B7741ED00F9C353 /* PKDataAccessLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90CE5C1B773D6300F9C353 /* PKDataAccessLayerTests.swift */; };
+		DF90CE971B77515900F9C353 /* RegisterModeDescriptEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90CE911B77515900F9C353 /* RegisterModeDescriptEntity.swift */; };
+		DF90CE981B77515900F9C353 /* CategoryDescriptEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90CE921B77515900F9C353 /* CategoryDescriptEntity.swift */; };
+		DF90CE991B77515900F9C353 /* PasswordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90CE931B77515900F9C353 /* PasswordEntity.swift */; };
+		DF90CE9A1B77515900F9C353 /* HistorySearchEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90CE941B77515900F9C353 /* HistorySearchEntity.swift */; };
+		DF90CE9B1B77515900F9C353 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90CE951B77515900F9C353 /* UserEntity.swift */; };
+		DF90CE9C1B77515900F9C353 /* CollectionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90CE961B77515900F9C353 /* CollectionEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,12 +82,13 @@
 		DF6AAF941B4941D100EAC5D0 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		DF6AAF991B4948E300EAC5D0 /* PKErrorOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKErrorOperation.swift; sourceTree = "<group>"; };
 		DF88CB5A1B528163001757F0 /* PKIntroPageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKIntroPageModel.swift; sourceTree = "<group>"; };
-		DFA8422F1B40526700FF5E1D /* PasswordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasswordModel.swift; path = PasswordKeeper/Model/PasswordModel.swift; sourceTree = "<group>"; };
-		DFA842301B40526700FF5E1D /* HistorySearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistorySearchModel.swift; path = PasswordKeeper/Model/HistorySearchModel.swift; sourceTree = "<group>"; };
-		DFA842311B40526700FF5E1D /* CategaryDescriptModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategaryDescriptModel.swift; path = PasswordKeeper/Model/CategaryDescriptModel.swift; sourceTree = "<group>"; };
-		DFA842321B40526700FF5E1D /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = PasswordKeeper/Model/UserModel.swift; sourceTree = "<group>"; };
-		DFA842331B40526700FF5E1D /* RegisterModeDescriptModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterModeDescriptModel.swift; path = PasswordKeeper/Model/RegisterModeDescriptModel.swift; sourceTree = "<group>"; };
-		DFA842341B40526700FF5E1D /* CollectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionModel.swift; path = PasswordKeeper/Model/CollectionModel.swift; sourceTree = "<group>"; };
+		DF90CE5C1B773D6300F9C353 /* PKDataAccessLayerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKDataAccessLayerTests.swift; sourceTree = "<group>"; };
+		DF90CE911B77515900F9C353 /* RegisterModeDescriptEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterModeDescriptEntity.swift; sourceTree = "<group>"; };
+		DF90CE921B77515900F9C353 /* CategoryDescriptEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDescriptEntity.swift; sourceTree = "<group>"; };
+		DF90CE931B77515900F9C353 /* PasswordEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordEntity.swift; sourceTree = "<group>"; };
+		DF90CE941B77515900F9C353 /* HistorySearchEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistorySearchEntity.swift; sourceTree = "<group>"; };
+		DF90CE951B77515900F9C353 /* UserEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		DF90CE961B77515900F9C353 /* CollectionEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,6 @@
 		5086864A1B3EFCA20045F0DD = {
 			isa = PBXGroup;
 			children = (
-				DFA8421C1B40514400FF5E1D /* Model */,
 				DF0AFBEE1B3FBB3800D05DE8 /* Libs */,
 				508686551B3EFCA20045F0DD /* PasswordKeeper */,
 				5086866E1B3EFCA20045F0DD /* PasswordKeeperTests */,
@@ -133,6 +134,7 @@
 		508686551B3EFCA20045F0DD /* PasswordKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				DF90CE901B77513600F9C353 /* Entities */,
 				DF17EBBC1B6FAC6C00ADD547 /* DAL */,
 				DF0889651B554D7C00101C5E /* Util */,
 				DF88CB591B5280D8001757F0 /* Models */,
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				508686711B3EFCA20045F0DD /* PasswordKeeperTests.swift */,
+				DF90CE5C1B773D6300F9C353 /* PKDataAccessLayerTests.swift */,
 				5086866F1B3EFCA20045F0DD /* Supporting Files */,
 			);
 			path = PasswordKeeperTests;
@@ -249,17 +252,17 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		DFA8421C1B40514400FF5E1D /* Model */ = {
+		DF90CE901B77513600F9C353 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				DFA8422F1B40526700FF5E1D /* PasswordModel.swift */,
-				DFA842301B40526700FF5E1D /* HistorySearchModel.swift */,
-				DFA842311B40526700FF5E1D /* CategaryDescriptModel.swift */,
-				DFA842321B40526700FF5E1D /* UserModel.swift */,
-				DFA842331B40526700FF5E1D /* RegisterModeDescriptModel.swift */,
-				DFA842341B40526700FF5E1D /* CollectionModel.swift */,
+				DF90CE911B77515900F9C353 /* RegisterModeDescriptEntity.swift */,
+				DF90CE921B77515900F9C353 /* CategoryDescriptEntity.swift */,
+				DF90CE931B77515900F9C353 /* PasswordEntity.swift */,
+				DF90CE941B77515900F9C353 /* HistorySearchEntity.swift */,
+				DF90CE951B77515900F9C353 /* UserEntity.swift */,
+				DF90CE961B77515900F9C353 /* CollectionEntity.swift */,
 			);
-			name = Model;
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		F743A437A20C486E72E1606B /* Pods */ = {
@@ -317,6 +320,8 @@
 		5086864B1B3EFCA20045F0DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = ss;
 				TargetAttributes = {
@@ -411,22 +416,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF90CE981B77515900F9C353 /* CategoryDescriptEntity.swift in Sources */,
 				DF08896E1B555BE400101C5E /* PKItemOperateController.swift in Sources */,
+				DF90CE9B1B77515900F9C353 /* UserEntity.swift in Sources */,
+				DF90CE971B77515900F9C353 /* RegisterModeDescriptEntity.swift in Sources */,
 				DF0889671B554EEE00101C5E /* PKUtil.swift in Sources */,
-				DFA842381B40526700FF5E1D /* UserModel.swift in Sources */,
 				DF08896A1B55546000101C5E /* PKWebCollectionController.swift in Sources */,
 				DF6AAF901B49414600EAC5D0 /* ItemsManController.swift in Sources */,
 				DF0A09CA1B4BEFA700184799 /* PKTabBarController.swift in Sources */,
 				DF6AAF9A1B4948E300EAC5D0 /* PKErrorOperation.swift in Sources */,
-				DFA842371B40526700FF5E1D /* CategaryDescriptModel.swift in Sources */,
-				DFA842391B40526700FF5E1D /* RegisterModeDescriptModel.swift in Sources */,
 				DF88CB5B1B528163001757F0 /* PKIntroPageModel.swift in Sources */,
+				DF90CE9C1B77515900F9C353 /* CollectionEntity.swift in Sources */,
 				DF0A09CF1B4BF17E00184799 /* PKMasterPasswordSettingIntroPage.swift in Sources */,
-				DFA842361B40526700FF5E1D /* HistorySearchModel.swift in Sources */,
-				DFA8423A1B40526700FF5E1D /* CollectionModel.swift in Sources */,
 				5086865C1B3EFCA20045F0DD /* PasswordKeeper.xcdatamodeld in Sources */,
 				DF0A09D31B4BF30E00184799 /* PKPasswordNotifyIntroPage.swift in Sources */,
-				DFA842351B40526700FF5E1D /* PasswordModel.swift in Sources */,
+				DF90CE991B77515900F9C353 /* PasswordEntity.swift in Sources */,
+				DF90CE9A1B77515900F9C353 /* HistorySearchEntity.swift in Sources */,
 				DF6AAF951B4941D100EAC5D0 /* ItemTableViewCell.swift in Sources */,
 				DF0A09D71B4BF49700184799 /* TKStartIntroPage.swift in Sources */,
 				DF17EBBE1B6FAC9F00ADD547 /* PKDataAccessLayer.swift in Sources */,
@@ -438,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF90CE631B7741ED00F9C353 /* PKDataAccessLayerTests.swift in Sources */,
 				508686721B3EFCA20045F0DD /* PasswordKeeperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -594,6 +601,7 @@
 				INFOPLIST_FILE = PasswordKeeperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PasswordKeeper.app/PasswordKeeper";
 			};
 			name = Debug;
@@ -602,6 +610,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

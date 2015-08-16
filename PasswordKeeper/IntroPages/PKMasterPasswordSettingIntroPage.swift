@@ -24,14 +24,14 @@ class PKMasterPasswordSettingIntroPage: MYIntroductionPanel {
     
     func updateDataAndUI(){
         let model = PKIntroPageModel.shareInstance;
-        model.password = txtPassword.text
-        model.confirmPassword = txtConfirmPassword.text
+        model.password = txtPassword.text!
+        model.confirmPassword = txtConfirmPassword.text!
         
-        var state = model.getPasswordInputState()
+        let state = model.getPasswordInputState()
         if(state == PasswordInputState.Correct){
-            self.parentIntroductionView.setEnabled(true)
+            self.parentIntroductionView!.setEnabled(true)
         }else{
-            self.parentIntroductionView.setEnabled(false)
+            self.parentIntroductionView!.setEnabled(false)
             self.shake()
         }
     }
